@@ -21,9 +21,7 @@ uses
   dxSkinVisualStudio2013Light, dxSkinVS2010, dxSkinWhiteprint,
   dxSkinXmas2008Blue, StdCtrls, cxButtons, DBCtrls, ExtCtrls, cxControls,
   cxContainer, cxEdit, cxTextEdit, cxMemo, ExtDlgs, cxMaskEdit, cxDropDownEdit,
-  cxImageComboBox, cxDBEdit, IWBaseWAPControl, IWControlWAP, IWExtCtrlsWAP,
-  IWDBExtCtrlsWAP, IWControl32, IWExtCtrls32, IWDBExtCtrls32, IWVCLBaseControl,
-  IWBaseControl, IWBaseHTMLControl, IWControl, IWExtCtrls, IWDBExtCtrls, cxImage;
+  cxImageComboBox, cxDBEdit,cxImage;
 
 type
   TFrameMainUser = class(TFrame)

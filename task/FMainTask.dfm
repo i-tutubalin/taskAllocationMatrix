@@ -5,15 +5,6 @@ object FrameMainTask: TFrameMainTask
   Height = 667
   PopupMenu = PMMain
   TabOrder = 0
-  object Splitter2: TSplitter
-    Left = 0
-    Top = 255
-    Width = 1042
-    Height = 5
-    Cursor = crVSplit
-    Align = alTop
-    ExplicitTop = 90
-  end
   object PanelFun: TPanel
     Left = 0
     Top = 0
@@ -87,24 +78,21 @@ object FrameMainTask: TFrameMainTask
     Left = 0
     Top = 105
     Width = 1042
-    Height = 150
+    Height = 155
     Align = alTop
     TabOrder = 1
     inline FrameRecordDev: TFrameRecordDev
       Left = 1
       Top = 1
       Width = 1040
-      Height = 148
+      Height = 153
       Align = alClient
       TabOrder = 0
-      ExplicitLeft = 1
-      ExplicitTop = 1
-      ExplicitWidth = 1040
-      ExplicitHeight = 148
+      ExplicitLeft = -158
+      ExplicitTop = 5
       inherited DBGridDev: TDBGrid
         Width = 1040
-        Height = 270
-        Align = alTop
+        Height = 153
       end
     end
   end

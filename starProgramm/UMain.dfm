@@ -29,7 +29,7 @@ object FormMain: TFormMain
     Font.Style = []
     ParentFont = False
     TabOrder = 0
-    Properties.ActivePage = cxStatist
+    Properties.ActivePage = cxMainTask
     Properties.CustomButtons.Buttons = <>
     Properties.Images = ModuleImg.ImageListMainMenu
     Properties.Rotate = True
@@ -61,10 +61,6 @@ object FormMain: TFormMain
         TabOrder = 0
         ExplicitWidth = 1082
         ExplicitHeight = 792
-        inherited Splitter2: TSplitter
-          Width = 1082
-          ExplicitWidth = 1082
-        end
         inherited PanelFun: TPanel
           Width = 1082
           ExplicitWidth = 1082
@@ -74,6 +70,8 @@ object FormMain: TFormMain
           ExplicitWidth = 1082
           inherited FrameRecordDev: TFrameRecordDev
             Width = 1080
+            ExplicitLeft = 1
+            ExplicitTop = 1
             ExplicitWidth = 1080
             inherited DBGridDev: TDBGrid
               Width = 1080
@@ -107,10 +105,6 @@ object FormMain: TFormMain
               ExplicitHeight = 530
             end
           end
-        end
-        inherited DBEditRelationsTableDevAndTask: TDBEdit
-          Left = 16
-          ExplicitLeft = 16
         end
       end
     end
@@ -200,6 +194,10 @@ object FormMain: TFormMain
           Lines.Strings = (
             'cxMemoPathAvatar'
             'User')
+        end
+        inherited OpenPictureDialogAvatar: TOpenPictureDialog
+          Left = 364
+          Top = 42
         end
       end
     end

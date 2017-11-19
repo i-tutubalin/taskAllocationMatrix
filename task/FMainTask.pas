@@ -26,12 +26,10 @@ type
   TFrameMainTask = class(TFrame)
     PanelFun: TPanel;
     PanelDev: TPanel;
-    FrameRecordDev: TFrameRecordDev;
     PanelTask: TPanel;
     FrameRecordTask: TFrameRecordTask;
     DBEditRelationsTableDevAndTask: TDBEdit;
     PMMain: TPopupMenu;
-    Splitter2: TSplitter;
     CBSortStatus: TComboBox;
     LbSortStatus: TLabel;
     PMPanelTask: TPopupMenu;
@@ -44,6 +42,7 @@ type
     cxBtDeleteRecord: TcxButton;
     refresh1: TMenuItem;
     refresh2: TMenuItem;
+    FrameRecordDev: TFrameRecordDev;
     procedure CBSortStatusChange(Sender: TObject);
     procedure DBEditRelationsTableDevAndTaskChange(Sender: TObject);
     procedure cxBtAddRecordClick(Sender: TObject);

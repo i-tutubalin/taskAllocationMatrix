@@ -33,9 +33,9 @@ type
     cxUser: TcxTabSheet;
     FrameMainUser: TFrameMainUser;
     cxAbout: TcxTabSheet;
-    FrameMainTask: TFrameMainTask;
     FrameMainAbout: TFrameMainAbout;
     FrameMainStatist: TFrameMainStatist;
+    FrameMainTask: TFrameMainTask;
     procedure refresh1Click(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure cxUserShow(Sender: TObject);
@@ -68,14 +68,14 @@ begin
   //ÑÂßÇÛÂÀÍÈÅ ÄÂÓÕ ÒÀÁËÈÖ(dev è task) ×ÅĞÅÇ ÊÎÑÒÛËÜ
   FrameMainTask.DBEditRelationsTableDevAndTaskChange(Sender);
   //ÍÀÑÒĞÈÂÀÅÌ ÑÊĞÎËÁÀĞ ÈÇ ÂÊËÀÄÊÈ ÇÀÄÀÍÈÉ
-  ShowScrollBar(FrameMainTask.FrameRecordDev.DBGridDev.Handle, SB_BOTH, False);
+  ShowScrollBar(FrameMainTask.FrameRecordDev.DBGridDev.Handle, SB_VERT, True);
   ShowScrollBar(FrameMainTask.FrameRecordTask.DBGridTask.Handle, SB_VERT, True);
 end;
 
 procedure TFormMain.cxStatistShow(Sender: TObject);
 begin
-  //ÓÁÅĞÀÅÌ ÑÊĞÎËÁÀĞ ÈÇ ÂÊËÀÄÊÈ ÑÒÀÒÈÑÒ
-  ShowScrollBar(FrameMainStatist.FrameRecordDev.DBGridDev.Handle, SB_BOTH, False);
+  //ÍÀÑÒĞÈÂÀÅÌ ÑÊĞÎËÁÀĞ ÈÇ ÂÊËÀÄÊÈ ÑÒÀÒÈÑÒ
+  ShowScrollBar(FrameMainStatist.FrameRecordDev.DBGridDev.Handle, SB_VERT, True);
 end;
 
 procedure TFormMain.cxUserShow(Sender: TObject);
