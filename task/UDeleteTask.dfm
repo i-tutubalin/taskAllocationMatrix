@@ -30,14 +30,14 @@ object FormDeleteTask: TFormDeleteTask
       Height = 19
       Align = alTop
       Alignment = taCenter
-      Caption = #1058#1077#1073#1077' '#1086#1085#1086' '#1085#1072#1076#1086'?'
+      Caption = #1042#1074#1077#1076#1080#1090#1077' '#1087#1072#1088#1086#1083#1100
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clWindowText
       Font.Height = -16
       Font.Name = 'Tahoma'
       Font.Style = []
       ParentFont = False
-      ExplicitWidth = 115
+      ExplicitWidth = 116
     end
     object EditReadPassword: TEdit
       Left = 1

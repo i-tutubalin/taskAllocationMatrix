@@ -1,7 +1,7 @@
 object FormNewTask: TFormNewTask
   Left = 0
   Top = 0
-  Caption = 'FormNewTask'
+  Caption = #1047#1072#1076#1072#1085#1080#1077
   ClientHeight = 450
   ClientWidth = 400
   Color = clBtnFace
@@ -23,8 +23,6 @@ object FormNewTask: TFormNewTask
     Height = 185
     Align = alTop
     TabOrder = 0
-    ExplicitLeft = -1
-    ExplicitTop = 9
     DesignSize = (
       400
       185)

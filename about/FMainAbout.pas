@@ -31,10 +31,9 @@ type
     LbGroup: TLabel;
     LbCompane: TLabel;
     LbInfoDev: TLabel;
-    LbJob: TLabel;
     LbUniversity: TLabel;
+    LbJob: TLabel;
     LbRights: TLabel;
-    Label1: TLabel;
   private
     { Private declarations }
   public

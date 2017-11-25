@@ -206,6 +206,10 @@ object FormMain: TFormMain
       Highlighted = True
       ImageIndex = 1
       OnShow = cxStatistShow
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       inline FrameMainStatist: TFrameMainStatist
         Left = 0
         Top = 0
@@ -256,40 +260,11 @@ object FormMain: TFormMain
         TabOrder = 0
         ExplicitWidth = 1082
         ExplicitHeight = 792
-        inherited LbLastName: TLabel
-          Width = 142
-          Height = 19
-          Font.Height = -16
-          ExplicitWidth = 142
-          ExplicitHeight = 19
-        end
-        inherited LbFirstName: TLabel
-          Width = 72
-          Height = 19
-          Font.Height = -16
-          ExplicitWidth = 72
-          ExplicitHeight = 19
-        end
-        inherited LbMiddelName: TLabel
-          Width = 134
-          Height = 19
-          Font.Height = -16
-          ExplicitWidth = 134
-          ExplicitHeight = 19
-        end
-        inherited LbGroup: TLabel
-          Width = 77
-          Height = 19
-          Font.Height = -16
-          ExplicitWidth = 77
-          ExplicitHeight = 19
-        end
-        inherited LbCompane: TLabel
-          Width = 198
-          Height = 19
-          Font.Height = -16
-          ExplicitWidth = 198
-          ExplicitHeight = 19
+        inherited ImageAvatar: TImage
+          Width = 1082
+          Height = 792
+          ExplicitWidth = 1082
+          ExplicitHeight = 792
         end
       end
     end

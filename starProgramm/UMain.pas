@@ -33,9 +33,9 @@ type
     cxUser: TcxTabSheet;
     FrameMainUser: TFrameMainUser;
     cxAbout: TcxTabSheet;
-    FrameMainAbout: TFrameMainAbout;
     FrameMainStatist: TFrameMainStatist;
     FrameMainTask: TFrameMainTask;
+    FrameMainAbout: TFrameMainAbout;
     procedure refresh1Click(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure cxUserShow(Sender: TObject);
@@ -60,7 +60,7 @@ uses MDBControl, UNewTask, UDeleteTask, MImg, UStartMain;
 procedure TFormMain.cxAboutShow(Sender: TObject);
 begin
   //ÇÀÃĞÓÆÀÅÌ ÀÂÀÒÀĞÊÓ ĞÀÇĞÀÁÎÒ×ÈÊÀ
-  FrameMainAbout.ImageAvatar.Picture.LoadFromFile(path + 'èêîíêè\dev.jpg')
+  FrameMainAbout.ImageAvatar.Picture.LoadFromFile(path + 'èêîíêè\About.png')
 end;
 
 procedure TFormMain.cxMainTaskShow(Sender: TObject);

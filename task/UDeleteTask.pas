@@ -91,7 +91,7 @@ procedure TFormDeleteTask.FormShow(Sender: TObject);
 begin
   //намскъел гмювемхе онкеи опх якедсчыел хяонкэгнбюмхх
   LbReadPassworld.Font.Color := clWindowText;
-  LbReadPassworld.Caption := 'рЕАЕ НМН МЮДН?';
+  LbReadPassworld.Caption := 'бБЕДХРЕ ОЮПНКЭ';
   EditReadPassword.Text := '';
 end;
 
